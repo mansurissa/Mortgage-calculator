@@ -1,5 +1,3 @@
-package com.mortgagecalculator;
-
 import java.text.NumberFormat;
 
 public class MortgageReport {
@@ -15,7 +13,7 @@ public class MortgageReport {
   public void printPaymentSchedule() {
       System.out.println();
       System.out.println("PAYMENT PROCESS");
-      System.out.println("----------------");
+      System.out.println("===============");
       for (double balance : calculator.getRemainingBalances())
         System.out.println(currency.format(balance));
   }

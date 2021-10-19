@@ -1,5 +1,3 @@
-package com.mortgagecalculator;
-
 import java.util.Scanner;
 
 public class Console {
